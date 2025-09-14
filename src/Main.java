@@ -20,7 +20,7 @@ public class Main {
         // criando um jogo
         Jogo jogo = new Jogo(1, "Mario Bros", "Plataforma Lateral", 1);
         celular.jogos = new ArrayList<>();
-        celular.jogos.add(jogo);
+        celular.jogos.add(jogo); //Adicona jogo no celular
 
         System.out.println();
         System.out.println(celular);
